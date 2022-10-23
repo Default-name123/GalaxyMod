@@ -42,8 +42,6 @@ class Hitbox extends FlxSpriteGroup
 
         sizex = 320;
 
-        final offsetFir:Int = (FlxG.save.data.mechsInputVariants ? Std.int(FlxG.height / 4) * 3 : 0);
-		final offsetSec:Int = (FlxG.save.data.mechsInputVariants ? 0 : Std.int(FlxG.height / 4));
 		
         //add graphic
         hitbox = new FlxSpriteGroup();
